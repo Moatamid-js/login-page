@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="page-login">
+        <div class="login-container">
+            <div class="theme-toggle">
+                <button class="toggle-btn"></button>
+            </div>
+
+            <h1 class=" Logo-Here"></h1>
+            <h3 class="dark login-subtitle"></h3>
+            <h1 class="dark login-title"></h1>
+
+            <form class="login-form" action="">
+                <div class="form-group">
+                    <label class="dark form-label" for="email">Email</label>
+                    <input class="form-input email" id="email" type="email" placeholder="Enter your email">
+                    <p class="form-error form-error-email"></p>
+                </div>
+
+                <div class="form-group">
+                    <div class="password-header">
+                        <label class="dark form-label" for="password">Password</label>
+                        <a class="dark forgot-password-link" href="#"></a>
+                    </div>
+                    <input class="form-input password" id="password" type="password" placeholder="Enter your password">
+                    <p class="form-error form-error-password"></p>
+                </div>
+
+                <div class="form-submit">
+                    <button class="login-button" type="submit">
+                        <img class="login-icon" src="" alt="Login">
+                    </button>
+                </div>
+            </form>
+
+            <div class="signup-footer">
+                <span class="dark signup-text"></span>
+                <a class="dark signup-link" href="#"></a>
+                <p class=" note-text"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/formValidation.js"></script>
+    <script src="js/data.js"></script>
+</body>
+
+</html>

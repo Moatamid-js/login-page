@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .dark-mode {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+body .dark-text {
+  color: white;
+}
+body .dark-shadow {
+  box-shadow: 0 5px 10px rgba(247, 245, 245, 0.13);
+}
+body .page-login {
+  max-width: 116.5rem;
+  width: 100%;
+  height: 108rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body .page-login.dark-mode {
+  background-color: #121212;
+}
+@media (max-width: 768px) {
+  body .page-login {
+    max-width: 76.8rem;
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login {
+    max-width: 37.5rem;
+    width: 100%;
+  }
+}
+body .page-login .theme-toggle {
+  width: 59.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  body .page-login .theme-toggle {
+    width: 40rem;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login .theme-toggle {
+    width: 10rem;
+  }
+}
+body .page-login .theme-toggle .toggle-btn {
+  margin-right: 10rem;
+  height: 2rem;
+  width: 5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(244, 117, 88, 0.6784313725);
+  padding: 0.5rem 0rem;
+}
+body .page-login .login-container {
+  width: 59.8rem;
+  height: 75rem;
+  padding-left: 6rem;
+  padding-top: 7rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.13);
+}
+body .page-login .login-container.dark-shadow {
+  box-shadow: 0 5px 10px rgba(247, 245, 245, 0.13);
+}
+@media (max-width: 768px) {
+  body .page-login .login-container {
+    width: 44rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login .login-container {
+    width: 30rem;
+    height: 65rem;
+    padding-left: 2rem;
+    padding-top: 10rem;
+  }
+}
+body .page-login .login-container .Logo-Here {
+  font-size: 3.6rem;
+  color: #F47458;
+}
+body .page-login .login-container .login-subtitle {
+  margin-top: 6rem;
+  font-weight: 200;
+  font-size: 1.6rem;
+}
+body .page-login .login-container .login-subtitle.dark-text {
+  color: white;
+}
+body .page-login .login-container .login-title {
+  font-size: 5.6rem;
+  margin-top: 1rem;
+}
+body .page-login .login-container .login-title.dark-text {
+  color: white;
+}
+body .page-login .login-container .login-form {
+  margin-top: 3rem;
+  width: 50rem;
+}
+@media (max-width: 768px) {
+  body .page-login .login-container .login-form {
+    width: 40rem;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login .login-container .login-form {
+    width: 30rem;
+  }
+}
+body .page-login .login-container .login-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+body .page-login .login-container .login-form .form-group .form-label {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+body .page-login .login-container .login-form .form-group .form-input {
+  background-color: #FFF6F4;
+  width: 47.7rem;
+  border: none;
+  padding: 1.3rem 1rem;
+  margin-top: 0.7rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  body .page-login .login-container .login-form .form-group .form-input {
+    width: 38rem;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login .login-container .login-form .form-group .form-input {
+    width: 28rem;
+  }
+}
+body .page-login .login-container .login-form .password-header {
+  margin-top: 2rem;
+}
+body .page-login .login-container .login-form .password-header {
+  display: flex;
+  justify-content: space-between;
+}
+body .page-login .login-container .login-form .password-header .forgot-password-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: black;
+}
+body .page-login .login-container .login-form .password-header .forgot-password-link.dark-text {
+  color: white;
+}
+body .page-login .login-container .login-form .password-header .forgot-password-link:hover {
+  border-bottom: 2px solid black;
+}
+body .page-login .login-container .login-form .form-submit {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+body .page-login .login-container .login-form .form-submit .login-button {
+  background-color: #F47458;
+  width: 15rem;
+  padding: 1.1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  color: white;
+  cursor: pointer;
+}
+body .page-login .login-container .login-form .form-submit .login-button:hover {
+  box-shadow: 0 0 5px #F47458;
+}
+body .page-login .login-container .signup-footer {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+}
+@media (max-width: 768px) {
+  body .page-login .login-container .signup-footer {
+    width: 41rem;
+  }
+}
+@media (max-width: 375px) {
+  body .page-login .login-container .signup-footer {
+    width: 28rem;
+  }
+}
+body .page-login .login-container .signup-footer .signup-text {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+body .page-login .login-container .signup-footer .signup-link {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  color: #F47458;
+}
+body .page-login .login-container .signup-footer .signup-link:hover {
+  border-bottom: 2px solid #F47458;
+}
+body .page-login .form-error {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 500;
+}
+
+.dark-mode {
+  background-color: rgba(0, 0, 0, 0.808);
+}/*# sourceMappingURL=main.css.map */
